@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derco Center</title>
+    <link rel="icon" href="img/icon.png" type="png">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css"> <!--Importa el css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="fondo">
+        <div class="row p-2">
+            <div class="mx-cont centro">
+                <button class="boton-serv">Servicio técnico</button>
+            </div>
+            <div class="mx-cont centro">
+                <img class="logo" src="https://solutiongroup.cl/sitio-colombia-2/imagenes/logo-derco-transparente-240x240.png" alt="">
+            </div>
+            <div class="mx-cont centro">
+                <button class="boton-buscar">🔍 Buscar</button>
+            </div>
+            <div class="fila mx-cont"><!--botones de arriba-->
+                <div class="ref mx-cont centro ref">
+                    <a href="#">Home</a>
+                </div>
+                <div class="mx-cont centro ref">
+                    <a href="#">0km</a>
+                </div>
+                <div class="mx-cont centro ref">
+                    <a href="#">Seminuevos</a>
+                </div>
+                <div class="mx-cont centro ref">
+                    <a href="#">Servicios</a>
+                </div>
+                <div class="mx-cont centro ref">
+                    <a href="#">Rent a car</a>
+                </div>
+            </div>
+           
+
+        </div> 
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"><!--me guie por el mockup pensando que el auto del principio era un BMW, pero derco no vende BMW segun su sitio web, pero quedó bonito-->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-carr" src="https://wallpapers.com/images/hd/4k-bmw-4-series-x44p1lte1sjdpod1.jpg"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="img-carr" src="https://moewalls.com/wp-content/uploads/2024/01/bmw-m4-rainy-night-thumb.jpg" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img class="img-carr" src="https://wallpapers.com/images/hd/4k-bmw-blue-half-5nu1wpu8z3p2hmgg.jpg" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div><!--hasta aqui es el slider-->
+        
+    </div>
+    <div class="fondo">
+        <div class="row">
+            <div class="centro mx-cont p-0">
+                <div class="row mx-cont p-3">
+                    <div class="columna mx-cont">
+                        <span class="label">Marca de vehiculo</span>
+                        <select class="sel" id="">
+                            <option value="">Marca</option><!--aqui van 1 o mas marcas de autos-->
+                            <option>Suzuki</option>
+                            <option>BMW</option>
+                            <option>Great Wall</option>
+                            <option>Haval</option>
+                            <option>Renault</option>
+                            <option>Mazda</option>
+                            <option>Otras...</option>
+                        </select>
+                    </div>
+                    <div class="columna mx-cont"><!--tipos de autos, mas opciones-->
+                        <span class="label">Tipo de vehiculo</span>
+                        <select class="sel" id="">
+                            <option value="">Tipo</option>
+                            <option>Sedán</option>
+                            <option>Deportivo</option>
+                            <option>Todo terreno</option>
+                            <option>City Car</option>
+                        </select>
+                    </div>
+                    <div class="columna mx-cont"><!--rangos de precios de los autos-->
+                        <span class="label">Precio de vehiculo</span>
+                        <select class="sel" id="">
+                            <option value="">Precio</option>
+                            <option>$3.990.000-$5.990.000</option>
+                            <option>$6.990.000-$9.990.000</option>
+                            <option>$9.990.000-$18.990.000</option>
+                            <option>$19.990.000-$...</option>
+                        </select>
+                    </div>
+                    <div class="columna mx-cont">
+                        <div class="mx-cont centro">
+                            <button class="boton-serv">Buscar vehiculo</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <img style="width: 100%" src="img/showroom.png" alt="">
+    </div>
+
+
+    <div>
+        <div class="row">
+            <div class="columna centro mx-cont" >
+                <div class="fin-body">
+                    <h1>
+                        <span style="color: rgb(50, 44, 44);">Nuestros</span> 
+                        <span style="color: red;">vehículos</span>
+                    </h1>
+                <div class="">
+                    <div class="fin-body">
+                        <h1>
+                            <span style="color: red;">Destacados 0KM</span>
+                        </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row p-3"><!--opciones directas a las marcas a traves de botones-->
+            <div class="mx-cont fila centro">
+                <div class="mx-cont p-2">
+                    <button class="boton-serv">Todas las marcas</button>
+                </div>
+                <div class="mx-cont p-2">
+                    <button class="boton-serv">Suzuki</button>
+                </div>
+                <div class="mx-cont p-2">
+                    <button class="boton-serv">Renault</button>
+                </div>
+                <div class="mx-cont p-2">
+                    <button class="boton-serv">Mazda</button>
+                </div>
+                <div class="mx-cont p-2">
+                    <button class="boton-serv">Haval</button>
+                </div>
+                <div class="mx-cont p-2">
+                    <button class="boton-serv">Changan</button>
+                </div>
+                <div class="mx-cont p-2">
+                    <button class="boton-serv">Great Wall</button>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="row"><!--autos-->
+            <div class="mx-cont fila centro">
+                <div class="centro">
+                    <img class="img-anim" src="img/auto1.png" alt="">
+                </div>
+                <div class="centro">
+                    <img class="img-anim" src="img/auto1.png" alt="">
+                </div>
+                <div class="centro">
+                    <img class="img-anim" src="img/auto1.png" alt="">
+                </div>
+                <div class="centro">
+                    <img class="img-anim" src="img/auto1.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="row p-3">
+            <div class="centro mx-cont">
+                <button class="boton-serv ">Ver todos</button>
+            </div>
+            
+        </div>
+
+    </div>
+    <div>
+        <img style="width: 100%" src="img/contacto.png" alt="">
+    </div>
+
+    <div>
+        <div class="row">
+            <div class="columna centro mx-cont" >
+                <div class="fin-body">
+                    <h1>
+                        <span style="color: rgb(50, 44, 44);">Nuestros</span> 
+                        <span style="color: red;">vehículos</span>
+                    </h1>
+                </div>
+                <div class="fin-body">
+                    <h1>
+                        <span style="color: red;">Seminuevos</span> 
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mx-cont fila centro"><!--más autos-->
+                <div class="centro">
+                    <img class="img-anim" src="img/auto2.png" alt="">
+                </div>
+                <div class="centro">
+                    <img class="img-anim" src="img/auto2.png" alt="">
+                </div>
+                <div class="centro">
+                    <img class="img-anim" src="img/auto2.png" alt="">
+                </div>
+                <div class="centro">
+                    <img class="img-anim" src="img/auto2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row p-3">
+            <div class="centro mx-cont">
+                <button class="boton-serv ">Ver todos</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img style="width: 100%" src="img/mapa.png" alt=""> <!--mapa.png sin mucha ciencia, por tiempo prioricé otros cod-->
+    </div>
+    <br>
+    <br>
+    <div class="fin-body"> 
+        <h1>
+            <span style="color: rgb(50, 44, 44);">Nuestras</span> 
+            <span style="color: red;">Marcas</span>
+        </h1>
+    </div>
+  <div class="row">
+        <div class="mx-cont fila centro"><!--simbolos de las marcas, img-anim para su respectiva animacion-->
+          <div class="centro">
+               <img class="img-anim" style="width: 50%;" src="https://repuestos.dercocenter.cl/datos/marcas-autos/marca-auto-suzuki.png">
+            </div>
+          <div class="centro">
+                <img class="img-anim" style="width: 50%;" src="https://repuestos.dercocenter.cl/datos/marcas-autos/marca-auto-mazda.png">
+            </div>
+          <div class="centro">
+                <img class="img-anim" style="width: 50%;" src="https://repuestos.dercocenter.cl/datos/marcas-autos/marca-auto-great-wall-20221026.png?v=20210427">
+            </div>
+          <div class="centro">
+                <img class="img-anim" style="width: 50%;" src="https://repuestos.dercocenter.cl/datos/marcas-autos/marca-auto-renault.png">
+            </div>
+           <div class="centro">
+                 <img class="img-anim" style="width: 50%;" src="https://dercocenteraxs.cl/datos/marcas-autos/marca-auto-jac.png">
+             </div>
+           <div class="centro">
+                 <img class="img-anim" style="width: 60%;" src="https://dercocenteraxs.cl/datos/marcas-autos/marca-auto-changan.png">
+             </div>
+          <div class="centro">
+                <img class="img-anim" style="width: 100%;" src="img/haval.png">
+            </div>
+     </div>
+    </div>
+  </div>
+</body>
+<footer class="footer"><!--footer, parte de abajo de la pagina, se encuentra emoticon whatsapp para comunicacion más directa.-->
+    <div class="row p-2">
+        <div class="mx-cont centro">
+           <button class="boton-foot sel">INGRESO<br>  A<br> <strong>INTRANET</strong></button>
+           <button class="boton-foot sel">Términos <br>y<br>  condiciones</button>
+           <button class="boton-foot sel">Términos y condiciones <strong>DercoSeguros</strong></button>
+           <img class="img" style="width: 20%;" src="img/webpay.png">
+           <img class="img-anim" style="width: 10%;" src="img/whatsapp.png">
+        <br>
+           <img class="img" style="width: 100%" src="img/footer.png">
+</footer>
+</html>

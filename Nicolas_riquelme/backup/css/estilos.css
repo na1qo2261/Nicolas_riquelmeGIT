@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+}
+.contendedor{
+    display: flex;
+    padding: 10px;
+}
+.row{
+    margin: 0px;
+    width: 100%;
+}
+.fila{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.columna {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.prueba{
+    height: 100px;
+    background-color: red;
+}
+.boton-serv:hover{
+    background-color: white;
+    color: black;
+
+}
+.boton-serv{
+    background-color: red;
+    color: white;
+    border-radius: 1px;
+    border: red solid 1px;
+    padding: 10px;
+    transition: .2s;
+    width: 140px;
+
+}
+.boton-buscar{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+}
+.centro{
+    margin: auto ;
+}
+.logo{
+    height: 50px;
+}
+.fondo{
+    background-color: black;
+}
+.bmwfondo{
+    background-image: url(https://i.pinimg.com/736x/dc/65/51/dc65514af549445c0aa64ccb7bb3f5c0.jpg);
+}
+.mx-cont{
+    width: max-content !important;
+}
+/*todas las tags a se les aplican estas propiedades*/
+a{
+    color: white !important;
+    text-decoration: none  !important;
+     
+}
+
+a:hover{
+
+    color: red !important;
+}
+.ref{
+    padding: 10px;
+}
+.img-carr{
+    width: 100%;
+}
+.sel{
+    padding: 10px;
+    border: lightgrey 1px solid;
+    border-radius: 5px;
+}
+.label{
+    color: white;
+}
+.sec-vehic{
+    font-size: 20px;
+    text-align: center;
+}
+.sec-vehic-dest{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.img-anim{
+    transition: .2s;
+}
+
+.img-anim:hover{
+    transform: scale(1.1,1.1);
+    
+}
+.fin-body h1{
+    text-align: center;
+}
+.boton-foot{
+    background-color: rgba(226, 226, 226, 0.877);
+    color: rgb(49, 47, 47);
+    border-radius: 1px;
+    border: rgb(95, 92, 92) solid 1px;
+    padding: 10px;
+    transition: .2s;
+    width: 140px;
+}
+.footer{
+    background-color: rgba(226, 226, 226, 0.877);
+}
